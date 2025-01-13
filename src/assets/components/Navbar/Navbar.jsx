@@ -26,13 +26,13 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto d-flex justify-content-end">
             <li className="nav-item">
-              <Link to="/" className="nav-link">Home</Link>
+              <Link to="/" className="nav-link">Inicio</Link>
             </li>
             <li className="nav-item">
-              <Link to="/producto" className="nav-link">Productos</Link>
+              <Link to="/producto" className="nav-link">Buscar cartas</Link>
             </li>
             <li className="nav-item">
-              <Link to="/sobre-nosotros" className="nav-link">Sobre Nosotros</Link>
+              <Link to="/sobre-nosotros" className="nav-link">Contacto</Link>
             </li>
           </ul>
         </div>

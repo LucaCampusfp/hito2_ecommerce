@@ -1,13 +1,16 @@
 // src/pages/SobreNosotros.jsx
 
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from '../components/Contact/contact'; 
 
 const SobreNosotros = () => {
   return (
     <div>
-      <h1>Sobre Nosotros</h1>
-      <p>Somos una tienda de ecommerce especializada en bebidas alcohólicas.</p>
+
+      <Contact/>
     </div>
+    
   );
 };
 

@@ -1,8 +1,9 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './assets/components/Navbar/Navbar';  // Importa el Navbar
-import Home from './assets/pages/Home';          // Importa la página Home
-import Producto from './assets/pages/Producto';    
+import Inicio from './assets/pages/Inicio';
+         
+import Producto from './assets/pages/Buscar';    
 import SobreNosotros from './assets/pages/SobreNosotros';  // Importa la página Sobre Nosotros
 import React from 'react';
 
@@ -14,13 +15,14 @@ const App = () => {
     <Router>
       <Navbar /> {/* El Navbar se muestra siempre */}
       <Routes>
-        <Route path="/" element={<Home />} />  {/* Ruta para Home */}
+        <Route path="/" element={<Inicio />} />  {/* Ruta para Home */}
         <Route path="/producto" element={<Producto />} />  {/* Ruta para Alcohol */}
         <Route path="/sobre-nosotros" element={<SobreNosotros />} />  {/* Ruta para Sobre Nosotros */}
       </Routes>
     </Router>
   );
 };
+//https://pokemontcg.io/
 
 export default App;
 
