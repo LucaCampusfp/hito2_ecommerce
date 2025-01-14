@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo o título */}
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="logo" className="logo img-fluid" />
-          <h1 className="text-center fs-8">POKÉMON TCG</h1>
+          <h1 className="text-center fs-8">POsÉMON TCG</h1>
         </Link>
         
         {/* Botón de hamburguesa en pantallas pequeñas */}
