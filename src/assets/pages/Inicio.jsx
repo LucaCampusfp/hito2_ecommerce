@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Tcg from '../components/PokeCard/tcg'; 
-import Footer from "../components/Footer/footer";
+
 
 
 const Home = () => {

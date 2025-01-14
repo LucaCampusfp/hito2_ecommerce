@@ -64,7 +64,7 @@ const ContactForm = () => {
                 </div>
 
                 {/* Botón de Envío */}
-                <button type="submit" className="btn btn-primary w-100 bg-danger text-white">Enviar</button>
+                <button type="submit" className="btn btn-primary w-100 bg-danger text-white mb-5">Enviar</button>
             </form>
         </div>
     );
