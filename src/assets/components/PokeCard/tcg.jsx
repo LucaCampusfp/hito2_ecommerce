@@ -44,7 +44,7 @@ const Tcg = () => {
       <div className="card-grid">
         {data.map((card) => (
           <div key={card.id} className="card-item">
-            <h3 class="w-5 text-center mx-auto fs-6 text-white">{card.name}</h3>
+            <h3 className="w-5 text-center mx-auto fs-6 text-white">{card.name}</h3>
             {card?.images?.small ? (
               <img src={card.images.small} alt={card.name} className="card-image" />
             ) : (
