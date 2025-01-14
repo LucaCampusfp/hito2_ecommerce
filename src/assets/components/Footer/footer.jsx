@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from '../icons/pokemon.svg';
+import logo from "../icons/pokemon.svg";
+import './footer.css';
 
 const Footer = () => {
   return (
