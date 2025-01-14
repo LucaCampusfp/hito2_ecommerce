@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Tcg from '../components/PokeCard/tcg'; 
-
+import Footer from "./components/Footer";
+import logo from "./assets/logo.png";
 
 const Home = () => {
   return (
@@ -12,6 +13,8 @@ const Home = () => {
    
          {/* Inserta el componente tcg aquí */}
          <Tcg />
+
+               <Footer/>
     </div>
   );
 };
