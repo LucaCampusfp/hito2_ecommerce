@@ -40,11 +40,11 @@ const Tcg = () => {
 
   return (
     <div style={{ textAlign: 'center', margin: '20px' }}>
-      <h2 className= 'text-secondary'>Lista de Pokémon</h2>
+      <h2 className= 'text-secondary text-white'>Lista de Pokémon</h2>
       <div className="card-grid">
         {data.map((card) => (
           <div key={card.id} className="card-item">
-            <h3 class="w-5 text-center mx-auto fs-6">{card.name}</h3>
+            <h3 class="w-5 text-center mx-auto fs-6 text-white">{card.name}</h3>
             {card?.images?.small ? (
               <img src={card.images.small} alt={card.name} className="card-image" />
             ) : (

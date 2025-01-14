@@ -63,8 +63,8 @@ const Card = () => {
                 <div className="cards-list">
                     {data.map((card, index) => (
                         <div key={index} className="card-item">
-                            <h2>{card.name}</h2>
-                            <p>{card.set.name}</p>
+                            <h2 className="text-white">{card.name}</h2>
+                            <p className="text-white">{card.set.name}</p>
                             {card.images && card.images.large ? (
                                 <img
                                     src={card.images.large}
