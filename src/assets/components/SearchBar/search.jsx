@@ -42,7 +42,7 @@ const Card = () => {
 
     return (
         <div className="card-container">
-            <h1>Busca tu carta Pokémon</h1>
+            <h1 className='text-white p-5 fs-7'>Busca tu carta Pokémon</h1>
             <form onSubmit={handleSearch} className="search-form">
                 <input
                     type="text"

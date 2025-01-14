@@ -40,7 +40,7 @@ const Tcg = () => {
 
   return (
     <div style={{ textAlign: 'center', margin: '20px' }}>
-      <h2>Lista de Pokémon</h2>
+      <h2 className= 'text-secondary'>Lista de Pokémon</h2>
       <div className="card-grid">
         {data.map((card) => (
           <div key={card.id} className="card-item">

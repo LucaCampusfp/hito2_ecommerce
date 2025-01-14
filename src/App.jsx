@@ -12,7 +12,9 @@ const App = () => {
   
   
   return (
+    
     <Router>
+
       <Navbar /> {/* El Navbar se muestra siempre */}
       <Routes>
         <Route path="/" element={<Inicio />} />  {/* Ruta para Home */}

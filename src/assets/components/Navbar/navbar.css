@@ -1,28 +1,79 @@
-/* src/App.css o src/components/Navbar.css */
+/* Estilos generales para el navbar */
 nav {
     background-color: #333;
-    padding: 10px;
-}
-
-nav ul {
+    padding: 10px 20px;
+  }
+  
+  /* Logo y título */
+  nav .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav .logo {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  nav h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Estilos para el menú */
+  nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: end;
-}
-
-nav ul li {
-
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
     margin-right: 20px;
-
-
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: white;
     text-decoration: none;
-}
-
-nav ul li a:hover {
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
     text-decoration: underline;
-}
+  }
+  
+  /* Media Queries para la adaptabilidad */
+  @media (max-width: 992px) {
+    /* Ajuste del tamaño del logo en pantallas más pequeñas */
+    nav .logo {
+      max-width: 80px;
+    }
+  
+    nav h1 {
+      font-size: 24px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    nav ul li {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand h1 {
+      display: none;
+    }
+  
+    /* Botón de hamburguesa */
+    .navbar-toggler {
+      display: block;
+    }
+  }
+  
