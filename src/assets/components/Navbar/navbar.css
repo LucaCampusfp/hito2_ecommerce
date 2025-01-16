@@ -81,3 +81,18 @@ nav {
     }
   }
   
+  .nav-link {
+   
+    border: 2px solid #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Animación de transición suave */
+  }
+  
+  .nav-link:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+  }
+  

@@ -1,11 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './contact.css';
 
 const ContactForm = () => {
     return (
         <div className="container mt-5">
-            <h1 className="text-center mb-4 text-white bg-secondary rounded p-5 fs-7">Formulario de Contacto</h1>
+            <div className="fondo">
+
+            <h1 className="text-center mb-4 text-white  rounded p-5 fs-7">Formulario de Contacto</h1>
+            </div>
             <form className="needs-validation" noValidate>
                 {/* Nombre */}
                 <div className="mb-3">

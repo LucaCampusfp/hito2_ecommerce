@@ -1,0 +1,8 @@
+.fondo{
+    background-image: url('/src/assets/components/img/fondo4.png');
+
+    background-position: center;
+
+    background-color: grey;
+
+}

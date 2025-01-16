@@ -1,5 +1,9 @@
 .mazo{
-    background-color: #333;
+    background-image: url('/src/assets/components/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     padding: 5vw;
     text-align: center;
@@ -13,4 +17,21 @@ body {
   h1,h2,h3{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+  }
+
+
+  button{
+    background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Animación de transición suave */
+  border-radius: 5px; /* Bordes redondeados */
+  }
+  button:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
   }
