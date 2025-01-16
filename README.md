@@ -1,8 +1,16 @@
-# React + Vite
+# Pokémon TCG Explorer  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una página web interactiva para explorar y descubrir cartas de Pokémon TCG, desarrollada con tecnologías modernas para ofrecer una experiencia rápida, estilizada y funcional.  
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca para la construcción de interfaces dinámicas y eficientes.  
+- **Vite**: Herramienta para un entorno de desarrollo rápido y optimizado.  
+- **Bootstrap**: Framework CSS para un diseño responsivo y atractivo.  
+- **Vercel**: Plataforma utilizada para el despliegue rápido y confiable de la aplicación.  
+
+## Características  
+
+- Exploración interactiva de cartas de Pokémon TCG.  
+- Búsqueda y filtrado de cartas con datos actualizados desde la API oficial de Pokémon TCG.  
+- Diseño responsivo y visualmente atractivo.
