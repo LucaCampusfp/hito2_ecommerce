@@ -1,0 +1,42 @@
+/* InfiniteCarousel.css */
+.slider {
+
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: auto; /* Ajusta el tamaño del carrusel */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(250px * 40); /* Aquí multiplicamos el número de imágenes */
+  }
+  
+  .slide {
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Animación del desplazamiento infinito */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 20)); /* Desplazamiento basado en el número de imágenes */
+    }
+  }
+  

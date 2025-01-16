@@ -69,7 +69,7 @@ const Card = () => {
                                 <img
                                     src={card.images.large}
                                     alt={card.name}
-                                    className="card-image"
+                                    className="Scard-image"
                                 />
                             ) : (
                                 <p>No hay imagen disponible.</p>

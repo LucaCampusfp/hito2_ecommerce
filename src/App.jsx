@@ -6,6 +6,7 @@ import Inicio from './assets/pages/Inicio';
 import Producto from './assets/pages/Buscar';    
 import SobreNosotros from './assets/pages/SobreNosotros';  // Importa la página Sobre Nosotros
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {

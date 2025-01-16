@@ -42,8 +42,12 @@
     width: 100%;
 
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
 
-.card-image {
+.Scard-image {
     width: 25vw;
     border-radius: 8px;
     height: auto;             
@@ -78,5 +82,5 @@
     height: 100vh; /* Ocupa toda la altura de la pantalla si hay solo una carta */
 }
 h2{
-    font-size: larger;
+    font-size: 25px;
 }

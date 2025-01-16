@@ -42,6 +42,10 @@ nav {
   nav ul li a:hover {
     text-decoration: underline;
   }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
   
   /* Media Queries para la adaptabilidad */
   @media (max-width: 992px) {
